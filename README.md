@@ -1,6 +1,4 @@
-# ADTree-Optimal-Defenses
-
-## Introduction
+# Introduction
 
 A tool for finding out the optimal defense nodes under a given cost constraint.   
 
