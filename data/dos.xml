@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adtree>
+  <node refinement="disjunctive">
+    <label>UG</label>
+    <node refinement="conjunctive">
+      <label>m1</label>
+      <node refinement="conjunctive">
+        <label>m3</label>
+        <node refinement="disjunctive">
+          <label>m5</label>
+          <node refinement="disjunctive">
+			<label>a5</label>
+			<node refinement="disjunctive" switchRole="yes">
+				<label>d11</label>
+				<parameter domainId="MinCost1">2</parameter>
+				<parameter domainId="ProbSucc2">0.616</parameter>
+			</node>
+		  </node>
+		  <node refinement="disjunctive">
+			<label>a6</label>
+			<node refinement="disjunctive" switchRole="yes">
+				<label>d12</label>
+				<parameter domainId="MinCost1">1</parameter>
+				<parameter domainId="ProbSucc2">0.777</parameter>
+			</node>
+		  </node>
+          <node refinement="disjunctive" switchRole="yes">
+            <label>d7</label>
+			<parameter domainId="MinCost1">3</parameter>
+            <parameter domainId="ProbSucc2">0.710</parameter>
+          </node>
+        </node>
+        <node refinement="disjunctive">
+          <label>a3</label>
+          <node refinement="disjunctive" switchRole="yes">
+            <label>d8</label>
+			<parameter domainId="MinCost1">1</parameter>
+            <parameter domainId="ProbSucc2">0.749</parameter>
+          </node>
+        </node>
+        <node refinement="disjunctive" switchRole="yes">
+          <label>d3</label>
+		  <parameter domainId="MinCost1">2</parameter>
+          <parameter domainId="ProbSucc2">0.596</parameter>
+        </node>
+      </node>
+	  <node refinement="disjunctive">
+        <label>a1</label>
+        <node refinement="disjunctive" switchRole="yes">
+          <label>d4</label>
+		  <parameter domainId="MinCost1">1</parameter>
+          <parameter domainId="ProbSucc2">0.658</parameter>
+        </node>
+      </node>
+      <node refinement="disjunctive" switchRole="yes">
+        <label>d1</label>
+		<parameter domainId="MinCost1">1</parameter>
+        <parameter domainId="ProbSucc2">0.824</parameter>
+      </node>
+    </node>
+	<node refinement="conjunctive">
+      <label>m2</label>
+      <node refinement="conjunctive">
+        <label>m4</label>
+        <node refinement="conjunctive">
+          <label>m6</label>
+          <node refinement="disjunctive">
+			<label>a7</label>
+			<node refinement="disjunctive" switchRole="yes">
+				<label>d13</label>
+				<parameter domainId="MinCost1">4</parameter>
+				<parameter domainId="ProbSucc2">0.674</parameter>
+			</node>
+		  </node>
+		  <node refinement="disjunctive">
+			<label>a8</label>
+			<node refinement="disjunctive" switchRole="yes">
+				<label>d14</label>
+				<parameter domainId="MinCost1">2</parameter>
+				<parameter domainId="ProbSucc2">0.666</parameter>
+			</node>
+		  </node>
+          <node refinement="disjunctive" switchRole="yes">
+            <label>d9</label>
+			<parameter domainId="MinCost1">3</parameter>
+            <parameter domainId="ProbSucc2">0.710</parameter>
+          </node>
+        </node>
+        <node refinement="disjunctive">
+          <label>a4</label>
+          <node refinement="disjunctive" switchRole="yes">
+            <label>d10</label>
+			<parameter domainId="MinCost1">1</parameter>
+            <parameter domainId="ProbSucc2">0.749</parameter>
+          </node>
+        </node>
+        <node refinement="disjunctive" switchRole="yes">
+          <label>d5</label>
+		  <parameter domainId="MinCost1">4</parameter>
+          <parameter domainId="ProbSucc2">0.425</parameter>
+        </node>
+      </node>
+	  <node refinement="disjunctive">
+        <label>a2</label>
+        <node refinement="disjunctive" switchRole="yes">
+          <label>d6</label>
+		  <parameter domainId="MinCost1">1</parameter>
+          <parameter domainId="ProbSucc2">0.813</parameter>
+        </node>
+      </node>
+      <node refinement="disjunctive" switchRole="yes">
+        <label>d2</label>
+		<parameter domainId="MinCost1">1</parameter>
+        <parameter domainId="ProbSucc2">0.716</parameter>
+      </node>
+    </node>
+  </node>
+  <domain id="MinCost1">
+    <class>lu.uni.adtool.domains.predefined.MinCost</class>
+    <tool>ADTool</tool>
+  </domain>
+  <domain id="ProbSucc2">
+    <class>lu.uni.adtool.domains.predefined.ProbSucc</class>
+    <tool>ADTool</tool>
+  </domain>
+</adtree>
